@@ -1,0 +1,48 @@
+
+
+body {
+background-color: #F2E5D7;
+}
+
+.centercontainer {
+display: flex;
+justify-content: center;
+padding-top: 140px;
+
+}
+
+#drumkit-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 500px;
+  }
+  
+  .drum:active {
+    animation: pulse 0.2s ease-in-out;
+  }
+  
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+      background-color: #90DDF0;
+    }
+ 
+    100% {
+      transform: scale(1);
+      background-color: #4478fd;
+    }
+  }
+  
+
+ 
+  .drum {
+    flex: 1 1 150px;
+    height: 150px;
+    background-color: #353238;
+    border: 2px solid #BE5A38;
+    cursor: pointer;
+  }
+  
+
+  
